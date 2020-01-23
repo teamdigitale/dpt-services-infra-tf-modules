@@ -18,5 +18,5 @@ locals {
   # Define resource names based on the following convention:
   # {resource_name_prefix}-{environment}-{resource_type}-{resource_name}
   azurerm_resource_group_name = "${var.resource_name_prefix}-${var.environment}-rg"
-  azurerm_key_vault_name      = "${var.resource_name_prefix}-${var.environment}-keyvault"
+  azurerm_key_vault_name      = "${var.resource_name_prefix}-${var.environment}-kv"
 }
